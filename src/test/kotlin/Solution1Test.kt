@@ -19,11 +19,11 @@ class Solution1Test {
         @JvmStatic
         fun provideTestCases(): Stream<Arguments> =
             Stream.of(
-                Arguments.of(1, "1"),
-                Arguments.of(2, "11"),
-                Arguments.of(3, "21"),
-                Arguments.of(4, "1211"),
-                Arguments.of(5, "111221")
+                Arguments.of(4, "12"),
+                Arguments.of(5, "21"),
+                Arguments.of(6, "22"),
+                Arguments.of(7, "12"),
+                Arguments.of(8, "21")
             )
     }
 }
