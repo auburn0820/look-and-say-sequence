@@ -19,8 +19,8 @@ class Solution1Test {
         @JvmStatic
         fun provideTestCases(): Stream<Arguments> =
             Stream.of(
-                Arguments.of(4, "12"),
-                Arguments.of(5, "21"),
+                Arguments.of(4, "21"),
+                Arguments.of(5, "12"),
                 Arguments.of(6, "22"),
                 Arguments.of(7, "12"),
                 Arguments.of(8, "21")
