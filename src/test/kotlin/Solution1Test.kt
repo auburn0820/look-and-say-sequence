@@ -23,8 +23,7 @@ class Solution1Test {
                 Arguments.of(2, "11"),
                 Arguments.of(3, "21"),
                 Arguments.of(4, "1211"),
-                Arguments.of(5, "111221"),
-                Arguments.of(100, "111221"),
+                Arguments.of(5, "111221")
             )
     }
 }
